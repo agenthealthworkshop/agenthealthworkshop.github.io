@@ -1,39 +1,31 @@
 'use strict';
 const element=(tag,cls,text)=>{const node=document.createElement(tag);if(cls)node.className=cls;if(text!==undefined)node.textContent=text;return node;};
 const {speakers,organizers,schedule}=window.workshop;
+const personCard=person=>{
+  const article=element('article','person');
+  const portrait=element('div','person-portrait');
+  if(person.image){
+    const img=element('img');img.src=person.image;img.alt=`Portrait of ${person.name}`;img.loading='lazy';img.decoding='async';img.width=80;img.height=80;
+    if(person.imagePosition)img.style.objectPosition=person.imagePosition;
+    if(person.imageZoom){img.style.transform=`scale(${person.imageZoom})`;img.style.transformOrigin=person.imagePosition||'center 25%';}
+    portrait.append(img);
+  }else{portrait.classList.add('person-initials');portrait.textContent=person.name.split(' ').map(word=>word[0]).join('');portrait.setAttribute('aria-hidden','true');}
+  const heading=element('h3');
+  if(person.url){const link=element('a','person-name',person.name);link.href=person.url;heading.append(link);}else heading.textContent=person.name;
+  article.append(portrait,heading,element('span','person-affiliation',person.affiliation));return article;
+};
 for(const speaker of speakers){
-  const article=element('article','speaker');
-  const identity=element('div','speaker-identity');
-  if(speaker.image){const img=element('img');img.src=speaker.image;img.alt=`Portrait of ${speaker.name}`;img.loading='lazy';img.width=88;img.height=88;identity.append(img);}
-  else{const initials=element('div','portrait-initials',speaker.name.split(' ').map(word=>word[0]).join(''));initials.setAttribute('aria-hidden','true');identity.append(initials);}
-  const link=element('a','speaker-name',speaker.name);link.href=speaker.url;identity.append(link,element('span','speaker-affiliation',speaker.affiliation));
-  const copy=element('div','speaker-copy');copy.append(element('h3','',speaker.topic),element('p','speaker-title',speaker.title),element('p','',speaker.bio));
-  article.append(identity,copy);document.getElementById('speaker-grid').append(article);
+  document.getElementById('speaker-grid').append(personCard(speaker));
+  const profile=element('article');profile.append(element('h3','',speaker.name),element('p','profile-topic',speaker.topic),element('p','profile-title',speaker.title),element('p','',speaker.bio));
+  document.getElementById('speaker-profiles').append(profile);
 }
 for(const organizer of organizers){
-  const article=element('article','organizer');
-  if(organizer.image){
-    const portrait=element('div','organizer-portrait');
-    const img=element('img');
-    img.src=organizer.image;img.alt=`Portrait of ${organizer.name}`;
-    img.loading='lazy';img.decoding='async';img.width=96;img.height=96;
-    if(organizer.imagePosition)img.style.objectPosition=organizer.imagePosition;
-    if(organizer.imageZoom){img.style.transform=`scale(${organizer.imageZoom})`;img.style.transformOrigin=organizer.imagePosition||'center 25%';}
-    portrait.append(img);article.append(portrait);
-  }else{
-    const initials=element('div','organizer-portrait organizer-initials',organizer.name.split(' ').map(word=>word[0]).join(''));
-    initials.setAttribute('aria-hidden','true');article.append(initials);
-  }
-  const heading=element('h3');
-  if(organizer.url){const link=element('a','',organizer.name);link.href=organizer.url;heading.append(link);}
-  else heading.textContent=organizer.name;
-  article.append(heading,element('p','',organizer.affiliation),element('p','organizer-role',organizer.role));
-  document.getElementById('organizer-grid').append(article);
+  document.getElementById('organizer-grid').append(personCard(organizer));
+  const role=element('div');role.append(element('dt','',organizer.name),element('dd','',organizer.role));document.getElementById('organizer-roles').append(role);
 }
 for(const session of schedule){
   const row=element('tr');row.dataset.type=session.type;
   const time=element('td','',session.time);const name=element('td');name.append(element('span','session-name',session.name));
-  if(session.type==='interactive')name.append(element('span','session-type','Discussion'));
   if(session.detail)name.append(element('span','session-detail',session.detail));
   row.append(time,name,element('td','',`${session.minutes} min`));document.getElementById('schedule-body').append(row);
 }

@@ -2,6 +2,8 @@
 
 Scientific workshop website for **Agentic AI for Healthcare: From Clinical Intelligence to Biomedical Discovery**.
 
+The page uses a minimal academic layout. All speaker and organizer portraits are visible; biographies, organizing roles, submission policies, and the full schedule expand on demand.
+
 Live site: https://zdh2292390.github.io/agenthealth-iclr2027/
 
 The workshop is at the proposal stage. Participation, talk assignments, dates, and submission plans are tentative until workshop acceptance and participant confirmation.
