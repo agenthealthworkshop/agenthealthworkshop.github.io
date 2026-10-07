@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" fill="none" stroke="#507a8e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Original schematic line art of San Francisco's skyline and Golden Gate Bridge. -->
+  <g opacity=".75">
+    <path d="M55 268h75v-43h25v-31h22v74h20v-88h35v88h18v-118h27v118h17v-72h32v72h17v-103h30v103h19"/>
+    <path d="M370 268l40-147 40 147m-40-147v147m-25-55h50m-60 37h70"/>
+    <path d="M465 268V158c0-24 6-54 22-60 16 6 22 36 22 60v110m-36-110h28m-28 24h28m-28 24h28m-28 24h28m-28 24h28"/>
+    <path d="M526 268v-90h30v90h18v-61h30v61"/>
+  </g>
+  <g stroke-width="2">
+    <path d="M500 232h500m-500 7h500"/>
+    <path d="M650 281V60h20v221m180 0V60h20v221"/>
+    <path d="M650 87h20m-20 33h20m-20 34h20m-20 35h20m-20 35h20m180-137h20m-20 33h20m-20 34h20m-20 35h20m-20 35h20"/>
+    <path d="M500 205Q595 184 660 60Q760 252 860 60Q925 184 1000 205"/>
+  </g>
+  <g stroke-width="1.1">
+    <path d="M530 196v36m30-50v50m30-73v73m30-110v110m65-130v130m25-101v101m25-82v82m25-76v76m25-82v82m25-100v100m25-131v131m50-110v110m30-74v74m30-52v52m30-40v40"/>
+  </g>
+  <g opacity=".55" stroke-width="1.2">
+    <path d="M50 287c110-10 200 10 310 0s200 10 310 0 200 10 330 0M120 302c100-8 180 8 280 0s180 8 280 0 180 8 290 0"/>
+  </g>
+</svg>
