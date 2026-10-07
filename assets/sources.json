@@ -1,0 +1,90 @@
+{
+  "verified_on": "2026-10-07",
+  "note": "Downloaded source images are unmodified. Research establishes identity and public professional information only; participation and talk titles are not confirmed by these sources. Suggested themes are editorial proposals, not confirmed talk titles.",
+  "speakers": [
+    {
+      "name": "Yuan Luo",
+      "file": "yuan-luo.jpg",
+      "title": "Professor of Biomedical Informatics and Medical Education; Chief Data Officer",
+      "affiliation": "University of Washington / UW Medicine",
+      "profile_url": "https://amia.org/membership/yuan-luo-phd",
+      "additional_sources": [
+        "https://bime.uw.edu/",
+        "https://www.uwmedicine.org/about/leadership"
+      ],
+      "image_url": "https://brand.amia.org/asset/dda4a14b-6b12-4639-b006-4d3371b8adbc/Small_Square/yuan-luo",
+      "expertise": "Biomedical AI, collaborative healthcare AI, and clinical data governance and integration. His UW roles connect research with responsible deployment across health-system operations.",
+      "suggested_theme": "Healthcare AI translation and clinical workflow integration",
+      "crop_hint": "Square portrait; center crop."
+    },
+    {
+      "name": "Wei Wang",
+      "file": "wei-wang.png",
+      "title": "Professor; Computer Science Department Chair; Leonard Kleinrock Term Chair in Computer Science",
+      "affiliation": "University of California, Los Angeles",
+      "profile_url": "https://samueli.ucla.edu/people/wei-wang/",
+      "additional_sources": [
+        "https://profiles.ucla.edu/wei.wang"
+      ],
+      "image_url": "https://samueli.ucla.edu/wp-content/uploads/samueli/wei-wang_300x200-300x200.png",
+      "expertise": "Data mining, bioinformatics, database systems, machine learning, and natural language processing. She also holds a UCLA computational medicine appointment.",
+      "suggested_theme": "Data and learning foundations for biomedical discovery",
+      "crop_hint": "Landscape portrait; center square crop places face at center. Original is 300x200."
+    },
+    {
+      "name": "Zhiyong Lu",
+      "file": "zhiyong-lu.png",
+      "title": "Senior Investigator, NIH/NLM; Adjunct Full Professor, UIUC",
+      "affiliation": "National Library of Medicine, National Institutes of Health / University of Illinois Urbana-Champaign",
+      "profile_url": "https://irp.nih.gov/pi/zhiyong-lu",
+      "additional_sources": [
+        "https://www.ncbi.nlm.nih.gov/research/bionlp/",
+        "https://www.ncbi.nlm.nih.gov/research/bionlp/Zhiyong-Lu"
+      ],
+      "image_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/static/main/images/people/luzh.png",
+      "expertise": "Biomedical NLP and information retrieval, evidence synthesis, large language models and agents, clinical trial matching, and multimodal clinical decision support.",
+      "suggested_theme": "Evidence-grounded agents for biomedical literature and clinical trials",
+      "crop_hint": "Portrait is 216x298; prefer top-center square crop to include face."
+    },
+    {
+      "name": "Marinka Zitnik",
+      "file": "marinka-zitnik.png",
+      "title": "Associate Professor of Biomedical Informatics",
+      "affiliation": "Harvard Medical School",
+      "profile_url": "https://dbmi.hms.harvard.edu/people/marinka-zitnik",
+      "additional_sources": [
+        "https://zitniklab.hms.harvard.edu/bio/"
+      ],
+      "image_url": "https://zitniklab.hms.harvard.edu/img/marinka_zitnik.png",
+      "expertise": "Foundations of AI for medicine, therapeutic design, and scientific discovery, including geometric deep learning, biomedical knowledge graphs, and multimodal models.",
+      "suggested_theme": "AI for therapeutic reasoning and scientific discovery",
+      "crop_hint": "Near-square close-up; center crop."
+    },
+    {
+      "name": "Yun Liu",
+      "file": "yun-liu.png",
+      "title": "Senior Staff Research Scientist",
+      "affiliation": "Google Research",
+      "profile_url": "https://research.google/people/105698/",
+      "additional_sources": [],
+      "image_url": "https://storage.googleapis.com/gweb-research2023-media/pubtools/5436.png",
+      "expertise": "Development and validation of machine learning for medical applications including pathology, ophthalmology, radiology, and dermatology; predictive modeling with biomedical signals and clinical text.",
+      "suggested_theme": "Clinical validation of multimodal medical AI",
+      "crop_hint": "Portrait is 749x851; center crop."
+    },
+    {
+      "name": "Mainul Mondal",
+      "file": "mainul-mondal.png",
+      "title": "Founder & CEO",
+      "affiliation": "Ellipsis Health",
+      "profile_url": "https://ellipsishealth.com/about-us/",
+      "additional_sources": [
+        "https://ellipsishealth.com/research/the-ellipsis-health-journey-a-global-solution-inspired-by-a-personal-struggle/"
+      ],
+      "image_url": "https://ellipsishealth.com/wp-content/uploads/2025/04/mainul-mondal-headshot-2.png",
+      "expertise": "Healthcare AI entrepreneurship and translation, with Ellipsis Health’s work on voice-based behavioral health assessment and AI voice agents for patient care workflows.",
+      "suggested_theme": "Voice agents and patient-facing healthcare workflows",
+      "crop_hint": "Transparent portrait, 768x610; center square crop with a light background."
+    }
+  ]
+}
