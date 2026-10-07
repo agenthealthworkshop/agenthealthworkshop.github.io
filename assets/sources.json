@@ -86,5 +86,111 @@
       "suggested_theme": "Voice agents and patient-facing healthcare workflows",
       "crop_hint": "Transparent portrait, 768x610; center square crop with a light background."
     }
+  ],
+  "organizers": [
+    {
+      "name": "Kaize Ding",
+      "file": "kaize-ding.jpg",
+      "affiliation": "Northwestern University",
+      "profile_url": "https://kaize0409.github.io/",
+      "identity_verification_url": "https://statistics.northwestern.edu/people/faculty/kaize-ding.html",
+      "image_url": "https://kaize0409.github.io/images/kaize_2024.jpg",
+      "width": 2421,
+      "height": 2570,
+      "crop_hint": "50% 25%",
+      "credit_reuse_information": "Source footer: © 2026 Kaize Ding. No photographer credit or explicit photo reuse license was found on the source page.",
+      "sha256": "5f6823150da8aafa6808fd33bf333cfc0a37ccc1f8d47e517abef088ea90d259"
+    },
+    {
+      "name": "Denghui Zhang",
+      "file": "denghui-zhang.jpg",
+      "affiliation": "Stevens Institute of Technology",
+      "profile_url": "https://www.stevens.edu/profile/dzhang42",
+      "identity_verification_url": "https://www.stevens.edu/profile/dzhang42",
+      "image_url": "https://images.stevens.edu/mviowpldu823/2aaNBMUb7s2qRKmfdyi5Kv/0b10512b6d75def1a622323360fc9422/dzhang42.JPG?f=center&fit=fill&h=400&q=75&w=400",
+      "width": 400,
+      "height": 400,
+      "crop_hint": "50% 35%",
+      "credit_reuse_information": "Source footer: © 2026 Stevens Institute of Technology. No photographer credit or explicit photo reuse license was found on the profile page.",
+      "sha256": "a027bab5f8514da20f68d4353b69e21eb5211be805ce328044e0e640daff2121"
+    },
+    {
+      "name": "Xuan Wang",
+      "file": "xuan-wang.jpg",
+      "affiliation": "Virginia Tech",
+      "profile_url": "https://website.cs.vt.edu/people/faculty/xuan-wang.html",
+      "identity_verification_url": "https://website.cs.vt.edu/people/faculty/xuan-wang.html",
+      "image_url": "https://website.cs.vt.edu/content/website_cs_vt_edu/en/people/faculty/xuan-wang/_jcr_content/bio-image.transform/m-medium/image.jpg",
+      "width": 800,
+      "height": 583,
+      "crop_hint": "57% 35%",
+      "credit_reuse_information": "Source footer: © 2026 Virginia Polytechnic Institute and State University. All rights reserved. No photographer credit or explicit photo reuse license was found on the profile page.",
+      "sha256": "14239c5c1525c1d9bc4efde00b34833aafdc7d817e12625e57bd4b64dfbb785b"
+    },
+    {
+      "name": "Dawei Zhou",
+      "file": "dawei-zhou.jpeg",
+      "affiliation": "Virginia Tech",
+      "profile_url": "https://sanghani.cs.vt.edu/people/our-team/faculty/dawei-zhou.html",
+      "identity_verification_url": "https://sanghani.cs.vt.edu/people/our-team/faculty/dawei-zhou.html",
+      "image_url": "https://sanghani.cs.vt.edu/content/sanghani_cs_vt_edu/en/people/our-team/faculty/dawei-zhou/_jcr_content/bio-image.transform/m-medium/image.jpeg",
+      "width": 400,
+      "height": 400,
+      "crop_hint": "50% 50%",
+      "credit_reuse_information": "Source footer: © 2026 Virginia Polytechnic Institute and State University. All rights reserved. No photographer credit or explicit photo reuse license was found on the profile page.",
+      "sha256": "21c2d9124cd48e5d1afff21044c9e0f24daad9fc4eed01393c209e51c5ff7efd"
+    },
+    {
+      "name": "Jiaming Cui",
+      "file": "jiaming-cui.jpg",
+      "affiliation": "Virginia Tech",
+      "profile_url": "https://website.cs.vt.edu/people/faculty/jiaming-cui.html",
+      "identity_verification_url": "https://website.cs.vt.edu/people/faculty/jiaming-cui.html",
+      "image_url": "https://website.cs.vt.edu/content/website_cs_vt_edu/en/people/faculty/jiaming-cui/jcr:content/bio-image.transform/xl-medium/image.jpg",
+      "width": 1049,
+      "height": 1280,
+      "crop_hint": "45% 38%",
+      "credit_reuse_information": "No individual photographer credit or explicit image reuse license found on the faculty page. Page footer states © 2026 Virginia Polytechnic Institute and State University. All rights reserved.",
+      "sha256": "6377fad576fbaae553538785a471363e893b1cddaee8d0debd5691b946c36523"
+    },
+    {
+      "name": "Aditya Prakash",
+      "file": "aditya-prakash.png",
+      "affiliation": "Georgia Institute of Technology",
+      "profile_url": "https://cse.gatech.edu/people/b-aditya-prakash",
+      "identity_verification_url": "https://cse.gatech.edu/people/b-aditya-prakash",
+      "image_url": "https://cse.gatech.edu/sites/default/files/images/profiles/2026-08/aditya_prakash_0.png",
+      "width": 150,
+      "height": 180,
+      "crop_hint": "50% 45%",
+      "credit_reuse_information": "No individual photographer credit or explicit image reuse license found on the profile page. Page footer states © 2026 Georgia Institute of Technology.",
+      "sha256": "4be742daca4e54f8bc7f0d631c00f9a232c950a0a00ebd08a20e762fc5fbec50"
+    },
+    {
+      "name": "Ziqing Wang",
+      "file": "ziqing-wang.jpg",
+      "affiliation": "Northwestern University",
+      "profile_url": "https://alexandrewang915.github.io/",
+      "identity_verification_url": "https://statistics.northwestern.edu/people/phd-graduate-students/",
+      "image_url": "https://alexandrewang915.github.io/assets/img/avatar.jpg",
+      "width": 1280,
+      "height": 1794,
+      "crop_hint": "50% 35%",
+      "credit_reuse_information": "No photographer credit or explicit image reuse license found on the personal academic page. Official directory footer states © Northwestern University.",
+      "sha256": "a733cd570e5f7c3e8e9c37872d178fe336200a2d247c3951501d5ee8f499f6c2"
+    },
+    {
+      "name": "Lili Zhao",
+      "file": "lili-zhao.jpg",
+      "affiliation": "Northwestern University",
+      "profile_url": "https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=64019",
+      "identity_verification_url": "https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=64019",
+      "image_url": "https://deptcommon.fsm.northwestern.edu/profile-images/64019.jpg",
+      "width": 160,
+      "height": 160,
+      "crop_hint": "50% 45%",
+      "credit_reuse_information": "No individual photographer credit or explicit image reuse license found on the faculty profile. Page footer states © 2026 Northwestern University.",
+      "sha256": "29c1f94322c9308b18bb2b82d669517a79ce5411093132f9fe29b45c755382d7"
+    }
   ]
 }

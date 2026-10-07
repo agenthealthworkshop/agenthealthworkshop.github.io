@@ -62,15 +62,74 @@ window.workshop = {
     }
 ],
   organizers: [
-    {name:'Kaize Ding',affiliation:'Northwestern University',role:'Lead organizer · research scope and program'},
-    {name:'Denghui Zhang',affiliation:'Stevens Institute of Technology',role:'Trust, privacy, governance, and outreach'},
-    {name:'Xuan Wang',affiliation:'Virginia Tech',role:'Program co-chair · biomedical NLP and reviewing'},
-    {name:'Dawei Zhou',affiliation:'Virginia Tech',role:'Program co-chair · reviews and contributed work'},
-    {name:'Jiaming Cui',affiliation:'Virginia Tech',role:'Case Clinic · clinical and public-health outreach'},
-    {name:'Aditya Prakash',affiliation:'Georgia Institute of Technology',role:'Panel moderation and public-health community'},
-    {name:'Ziqing Wang',affiliation:'Northwestern University',role:'Workshop operations and accessibility'},
-    {name:'Lili Zhao',affiliation:'Northwestern University',role:'Case Clinic · biostatistics and clinical reviewing'}
-  ],
+    {
+        "name": "Kaize Ding",
+        "affiliation": "Northwestern University",
+        "role": "Lead organizer · research scope and program",
+        "url": "https://kaize0409.github.io/",
+        "image": "assets/kaize-ding.jpg",
+        "imagePosition": "50% 15%",
+        "imageZoom": 1.6
+    },
+    {
+        "name": "Denghui Zhang",
+        "affiliation": "Stevens Institute of Technology",
+        "role": "Trust, privacy, governance, and outreach",
+        "url": "https://www.stevens.edu/profile/dzhang42",
+        "image": "assets/denghui-zhang.jpg",
+        "imagePosition": "50% 35%"
+    },
+    {
+        "name": "Xuan Wang",
+        "affiliation": "Virginia Tech",
+        "role": "Program co-chair · biomedical NLP and reviewing",
+        "url": "https://website.cs.vt.edu/people/faculty/xuan-wang.html",
+        "image": "assets/xuan-wang.jpg",
+        "imagePosition": "57% 35%",
+        "imageZoom": 1.25
+    },
+    {
+        "name": "Dawei Zhou",
+        "affiliation": "Virginia Tech",
+        "role": "Program co-chair · reviews and contributed work",
+        "url": "https://sanghani.cs.vt.edu/people/our-team/faculty/dawei-zhou.html",
+        "image": "assets/dawei-zhou.jpeg",
+        "imagePosition": "50% 50%"
+    },
+    {
+        "name": "Jiaming Cui",
+        "affiliation": "Virginia Tech",
+        "role": "Case Clinic · clinical and public-health outreach",
+        "url": "https://website.cs.vt.edu/people/faculty/jiaming-cui.html",
+        "image": "assets/jiaming-cui.jpg",
+        "imagePosition": "45% 38%",
+        "imageZoom": 1.6
+    },
+    {
+        "name": "Aditya Prakash",
+        "affiliation": "Georgia Institute of Technology",
+        "role": "Panel moderation and public-health community",
+        "url": "https://cse.gatech.edu/people/b-aditya-prakash",
+        "image": "assets/aditya-prakash.png",
+        "imagePosition": "50% 0%"
+    },
+    {
+        "name": "Ziqing Wang",
+        "affiliation": "Northwestern University",
+        "role": "Workshop operations and accessibility",
+        "url": "https://alexandrewang915.github.io/",
+        "image": "assets/ziqing-wang.jpg",
+        "imagePosition": "50% 20%"
+    },
+    {
+        "name": "Lili Zhao",
+        "affiliation": "Northwestern University",
+        "role": "Case Clinic · biostatistics and clinical reviewing",
+        "url": "https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=64019",
+        "image": "assets/lili-zhao.jpg",
+        "imagePosition": "50% 45%"
+    }
+],
   schedule: [
     {time:'08:50–09:00',name:'Opening remarks',detail:'Research questions and goals for the day',minutes:10,type:'other'},
     {time:'09:00–09:25',name:'Invited talk · Health-system practice',detail:'Yuan Luo · assignment tentative',minutes:25,type:'talk'},
