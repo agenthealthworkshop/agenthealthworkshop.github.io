@@ -75,7 +75,7 @@ window.workshop = {
         "name": "Denghui Zhang",
         "affiliation": "Stevens Institute of Technology",
         "role": "Trust, privacy, governance, and outreach",
-        "url": "https://www.stevens.edu/profile/dzhang42",
+        "url": "https://zhangdenghui.site/",
         "image": "assets/denghui-zhang.jpg",
         "imagePosition": "50% 35%"
     },
