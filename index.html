@@ -10,9 +10,9 @@
   <meta property="og:type" content="website">
   <title>AgentHealth | Agentic AI for Healthcare · ICLR 2027 Proposal</title>
   <link rel="icon" type="image/svg+xml" href="assets/agenthealth-mark.svg?v=20261007-skyline">
-  <link rel="stylesheet" href="styles.css?v=20261007-topics">
+  <link rel="stylesheet" href="styles.css?v=20261008-layout">
   <script src="data.js?v=20261007-roles-short" defer></script>
-  <script src="script.js?v=20261007-minimal" defer></script>
+  <script src="script.js?v=20261008-layout" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -33,35 +33,67 @@
       <section id="about" aria-labelledby="about-title">
         <h2 id="about-title">About</h2>
         <p>AgentHealth brings together machine learning, clinical, and biomedical researchers to study agents that retrieve evidence, use tools, and make multi-step decisions. We focus on grounding, realistic evaluation, and expert oversight across clinical care and biomedical discovery.</p>
+        <h3 class="subheading">Submission topics</h3>
         <ul class="topics"><li>Clinical workflows and patient-facing agents</li><li>Biomedical and scientific discovery</li><li>Knowledge, memory, and multimodal reasoning</li><li>Evaluation, safety, privacy, and public health</li></ul>
       </section>
       <section id="contribute" aria-labelledby="contribute-title">
-        <h2 id="contribute-title">Submissions &amp; dates</h2>
-        <p>Regular papers: <strong>up to 8 pages</strong>. Short papers: <strong>up to 4 pages</strong>. References and appendices are excluded. Both tracks are non-archival, with double-blind review on OpenReview.</p>
-        <dl class="dates"><div><dt>Call for papers</dt><dd><time datetime="2026-12-10">December 10, 2026</time></dd></div><div><dt>Submission deadline</dt><dd><time datetime="2027-02-01">February 1, 2027</time></dd></div><div><dt>Acceptance notification</dt><dd><time datetime="2027-02-26">February 26, 2027</time></dd></div><div><dt>Camera-ready</dt><dd><time datetime="2027-03-19">March 19, 2027</time></dd></div></dl>
-        <p class="note">Planned dates, subject to acceptance. Submission and notification deadlines are 11:59 p.m. AoE. The submission link will be announced after workshop acceptance.</p>
-        <details><summary>Submission policies</summary><div class="detail-content"><p>We welcome methods, systems, benchmarks, negative results, analyses, and position papers. Short papers may present work in progress, modest results, re-analyses, dataset notes, or case studies. Students and researchers new to ML venues are welcome.</p><p>Each paper receives at least two human reviews assessing relevance, soundness, evaluation validity, limitations, and clarity. Work already published at major ML conferences is out of scope; concurrent submission is permitted where the other venue allows it.</p><p>Papers must be primarily human-authored, with AI assistance disclosed. AI-generated short papers are not permitted. Submissions must not contain protected health information. Accepted papers will be public on OpenReview.</p><p>At least one author is expected to present in person. Exceptional travel constraints may be accommodated with a recording or a poster displayed on the author's behalf.</p></div></details>
+        <h2 id="contribute-title">Submissions <span class="heading-note">Not yet open</span></h2>
+        <div class="submission-layout">
+          <div class="paper-overview">
+            <div class="paper-tracks">
+              <article><h3>Regular papers</h3><p class="page-limit">Up to 8 pages</p><p>Methods, systems, benchmarks, negative results, analyses, and position papers.</p></article>
+              <article><h3>Short papers</h3><p class="page-limit">Up to 4 pages</p><p>Work in progress, simple ideas, re-analyses, dataset notes, and case studies. New researchers are welcome.</p></article>
+            </div>
+            <p class="note">Page limits exclude references and appendices. Both tracks are non-archival.</p>
+          </div>
+          <aside class="dates-panel" aria-labelledby="dates-title">
+            <h3 id="dates-title">Important dates</h3>
+            <dl class="dates">
+              <div><dt>Call for papers</dt><dd><time datetime="2026-12-10">December 10, 2026</time></dd></div>
+              <div class="deadline"><dt>Submission deadline</dt><dd><time datetime="2027-02-01">February 1, 2027</time></dd></div>
+              <div><dt>Acceptance notification</dt><dd><time datetime="2027-02-26">February 26, 2027</time></dd></div>
+              <div><dt>Camera-ready</dt><dd><time datetime="2027-03-19">March 19, 2027</time></dd></div>
+            </dl>
+            <p class="note">Planned dates, subject to acceptance. Submission and notification deadlines are 11:59 p.m. AoE.</p>
+            <p class="note">The submission link will be announced after workshop acceptance.</p>
+          </aside>
+          <div class="submission-guidelines">
+            <h3 class="subheading">Submission guidelines</h3>
+            <ul class="guidelines">
+              <li>Double-blind review on OpenReview, with at least two human reviews per paper.</li>
+              <li>New and ongoing work is welcome. Papers already published at major ML conferences are out of scope; concurrent submissions must follow both venues’ policies.</li>
+              <li>Papers must be primarily human-authored, with AI assistance disclosed. AI-generated short papers and protected health information are not permitted.</li>
+              <li>Accepted papers will be public on OpenReview. Authors present in person; exceptional travel constraints may be accommodated with a recording or a poster presented on their behalf.</li>
+            </ul>
+          </div>
+        </div>
       </section>
       <section id="speakers" aria-labelledby="speakers-title">
         <h2 id="speakers-title">Invited speakers <span class="heading-note">Tentative</span></h2>
         <div id="speaker-grid" class="people-grid speakers-grid"></div>
         <noscript><p>Yuan Luo, Wei Wang, Zhiyong Lu, Marinka Zitnik, Yun Liu, and Mainul Mondal.</p></noscript>
-        <details><summary>Speaker profiles</summary><div id="speaker-profiles" class="detail-content profiles"></div></details>
       </section>
       <section id="program" aria-labelledby="program-title">
         <h2 id="program-title">Program <span class="heading-note">Tentative</span></h2>
-        <p>Six invited talks, six contributed talks, two poster sessions, a 60-minute Agent Case Clinic, and a 40-minute discussion panel.</p>
-        <details><summary>View the tentative schedule</summary><div class="detail-content"><div class="filters" role="group" aria-label="Filter program sessions"><button type="button" data-filter="all" aria-pressed="true">All sessions</button><button type="button" data-filter="talk" aria-pressed="false">Invited talks</button><button type="button" data-filter="interactive" aria-pressed="false">Interactive sessions</button></div><table class="schedule"><caption>Conference local time; times and assignments may change.</caption><thead><tr><th scope="col">Time</th><th scope="col">Session</th><th scope="col">Duration</th></tr></thead><tbody id="schedule-body"></tbody></table><p class="note">Invited slots include 20 minutes of presentation and 5 minutes of discussion. Posters, the case clinic, and the panel provide 190 minutes of direct exchange.</p></div></details>
-        <details id="clinic"><summary>Agent Case Clinic &amp; discussion panel</summary><div class="detail-content"><p>The case clinic brings domain experts and ML researchers together to inspect two agent trajectories: one clinical case and one biomedical discovery case. Groups identify unsupported steps and decide where expert oversight is needed. Only synthetic or publicly released data will be used; cases, answer keys, and the resulting failure taxonomy will be published within two weeks.</p><p><strong>Panel:</strong> What will it take to trust agents in the clinic and the lab? We plan three or four external panelists, including a practicing clinician, with an organizer moderating. Panelists will be announced once confirmed.</p></div></details>
+        <p>Six invited talks, six contributed talks, two poster sessions, an Agent Case Clinic, and a discussion panel.</p>
+        <p class="note">Conference local time. Times and speaker assignments may change.</p>
+        <div class="agenda-layout">
+          <div><h3 class="agenda-heading">Morning</h3><table class="schedule"><caption class="visually-hidden">Morning program</caption><thead><tr><th scope="col">Time</th><th scope="col">Session</th></tr></thead><tbody id="morning-schedule"></tbody></table></div>
+          <div><h3 class="agenda-heading">Afternoon</h3><table class="schedule"><caption class="visually-hidden">Afternoon program</caption><thead><tr><th scope="col">Time</th><th scope="col">Session</th></tr></thead><tbody id="afternoon-schedule"></tbody></table></div>
+        </div>
+        <p class="note agenda-note">Invited talks include 20 minutes of presentation and 5 minutes of discussion. Posters, the case clinic, and the panel provide 190 minutes of direct exchange.</p>
+        <div id="clinic" class="community-sessions">
+          <article><h3>Agent Case Clinic <span class="heading-note">60 min</span></h3><p>Inspect one clinical and one biomedical discovery trajectory in small groups. Identify unsupported steps and where expert oversight is needed. Only synthetic or public data will be used; cases, answer keys, and a failure taxonomy will be published within two weeks.</p></article>
+          <article><h3>Discussion panel <span class="heading-note">40 min</span></h3><p>What will it take to trust agents in the clinic and the lab? We plan three or four external panelists, including a practicing clinician, with an organizer moderating. Panelists will be announced once confirmed.</p></article>
+        </div>
       </section>
       <section id="organizers" aria-labelledby="organizers-title">
-        <h2 id="organizers-title">Organizers</h2>
+        <h2 id="organizers-title">Organizers <span class="heading-note">Proposed responsibilities</span></h2>
         <div id="organizer-grid" class="people-grid organizers-grid"></div>
         <noscript><p>Kaize Ding, Denghui Zhang, Xuan Wang, Dawei Zhou, Jiaming Cui, Aditya Prakash, Ziqing Wang, and Lili Zhao.</p></noscript>
-        <details><summary>Organizing responsibilities <span class="heading-note">Proposed</span></summary><dl id="organizer-roles" class="detail-content roles"></dl></details>
       </section>
     </main>
-    <footer><a href="https://iclr.cc/Conferences/2027">ICLR 2027</a><a href="https://iclr.cc/Conferences/2027/WorkshopGuidelines">Workshop guidelines</a><span>Updated October 7, 2026</span></footer>
+    <footer><a href="https://iclr.cc/Conferences/2027">ICLR 2027</a><a href="https://iclr.cc/Conferences/2027/WorkshopGuidelines">Workshop guidelines</a><span>Updated October 8, 2026</span></footer>
   </div>
 </body>
 </html>

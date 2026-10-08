@@ -15,22 +15,20 @@ const personCard=person=>{
   article.append(portrait,heading,element('span','person-affiliation',person.affiliation));return article;
 };
 for(const speaker of speakers){
-  document.getElementById('speaker-grid').append(personCard(speaker));
-  const profile=element('article');profile.append(element('h3','',speaker.name),element('p','profile-topic',speaker.topic),element('p','profile-title',speaker.title),element('p','',speaker.bio));
-  document.getElementById('speaker-profiles').append(profile);
+  const card=personCard(speaker);
+  card.append(element('p','person-topic',speaker.topic));
+  document.getElementById('speaker-grid').append(card);
 }
 for(const organizer of organizers){
-  document.getElementById('organizer-grid').append(personCard(organizer));
-  const role=element('div');role.append(element('dt','',organizer.name),element('dd','',organizer.role));document.getElementById('organizer-roles').append(role);
+  const card=personCard(organizer);
+  card.append(element('p','person-role',organizer.role));
+  document.getElementById('organizer-grid').append(card);
 }
 for(const session of schedule){
   const row=element('tr');row.dataset.type=session.type;
   const time=element('td','',session.time);const name=element('td');name.append(element('span','session-name',session.name));
   if(session.detail)name.append(element('span','session-detail',session.detail));
-  row.append(time,name,element('td','',`${session.minutes} min`));document.getElementById('schedule-body').append(row);
+  row.append(time,name);
+  const target=Number(session.time.slice(0,2))<13?'morning-schedule':'afternoon-schedule';
+  document.getElementById(target).append(row);
 }
-for(const button of document.querySelectorAll('[data-filter]'))button.addEventListener('click',()=>{
-  for(const sibling of document.querySelectorAll('[data-filter]'))sibling.setAttribute('aria-pressed',String(sibling===button));
-  const selected=button.dataset.filter;
-  for(const row of document.querySelectorAll('#schedule-body tr'))row.hidden=selected!=='all'&&row.dataset.type!==selected;
-});
