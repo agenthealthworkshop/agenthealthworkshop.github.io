@@ -73,18 +73,21 @@
       "crop_hint": "Portrait is 749x851; center crop."
     },
     {
-      "name": "Mainul Mondal",
-      "file": "mainul-mondal.png",
-      "title": "Founder & CEO",
-      "affiliation": "Ellipsis Health",
-      "profile_url": "https://ellipsishealth.com/about-us/",
+      "name": "Daniel McDuff",
+      "file": "daniel-mcduff.jpg",
+      "title": "Senior Staff Research Scientist and Manager, Google; Affiliate Professor",
+      "affiliation": "Google Research / University of Washington",
+      "profile_url": "https://scholar.google.com/citations?user=m7Jr-b4AAAAJ&hl=en",
       "additional_sources": [
-        "https://ellipsishealth.com/research/the-ellipsis-health-journey-a-global-solution-inspired-by-a-personal-struggle/"
+        "https://hci.stanford.edu/courses/cs547/speaker.php?date=2026-09-25",
+        "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/"
       ],
-      "image_url": "https://ellipsishealth.com/wp-content/uploads/2025/04/mainul-mondal-headshot-2.png",
-      "expertise": "Healthcare AI entrepreneurship and translation, with Ellipsis Health’s work on voice-based behavioral health assessment and AI voice agents for patient care workflows.",
-      "suggested_theme": "Voice agents and patient-facing healthcare workflows",
-      "crop_hint": "Transparent portrait, 768x610; center square crop with a light background."
+      "image_url": "https://hci.stanford.edu/courses/cs547/speaker-image.php?date=2026-09-25&i=0",
+      "expertise": "Affective computing, computer vision, and remote physiological/wearable sensing (e.g., DeepPhys, SensorFM), and large language model agents for healthcare (e.g., MDAgents, Health-LLM).",
+      "suggested_theme": "Wearable sensing and multimodal LLM agents for health",
+      "crop_hint": "Portrait is 926x1000; center crop.",
+      "verified_on": "2026-10-08",
+      "sha256": "e82aec480136dede41c7fbc263987faecf7ac72c79d17e14e8cf81402661d76b"
     }
   ],
   "organizers": [
@@ -167,17 +170,17 @@
       "sha256": "4be742daca4e54f8bc7f0d631c00f9a232c950a0a00ebd08a20e762fc5fbec50"
     },
     {
-      "name": "Ziqing Wang",
-      "file": "ziqing-wang.jpg",
-      "affiliation": "Northwestern University",
-      "profile_url": "https://alexandrewang915.github.io/",
-      "identity_verification_url": "https://statistics.northwestern.edu/people/phd-graduate-students/",
-      "image_url": "https://alexandrewang915.github.io/assets/img/avatar.jpg",
-      "width": 1280,
-      "height": 1794,
-      "crop_hint": "50% 35%",
-      "credit_reuse_information": "No photographer credit or explicit image reuse license found on the personal academic page. Official directory footer states © Northwestern University.",
-      "sha256": "a733cd570e5f7c3e8e9c37872d178fe336200a2d247c3951501d5ee8f499f6c2"
+      "name": "Nigam Shah",
+      "file": "nigam-shah.jpg",
+      "image_url": "https://profiles.stanford.edu/proxy/api/cap/profiles/19142/resources/profilephoto/350x350.1509528985249.jpg",
+      "width": 350,
+      "height": 350,
+      "sha256": "4da208bffb7e3337fdd4e56a2db6c6f3561e9f403a1b3d0eaedecc3652d16764",
+      "affiliation": "Stanford University",
+      "profile_url": "https://profiles.stanford.edu/nigam-shah",
+      "identity_verification_url": "https://profiles.stanford.edu/nigam-shah",
+      "verified_on": "2026-10-08",
+      "crop_hint": "center square crop"
     },
     {
       "name": "Lili Zhao",
@@ -192,5 +195,67 @@
       "credit_reuse_information": "No individual photographer credit or explicit image reuse license found on the faculty profile. Page footer states © 2026 Northwestern University.",
       "sha256": "29c1f94322c9308b18bb2b82d669517a79ce5411093132f9fe29b45c755382d7"
     }
-  ]
+  ],
+  "panelists": [
+    {
+      "name": "Mainul Mondal",
+      "file": "mainul-mondal.png",
+      "title": "Founder & CEO",
+      "affiliation": "Ellipsis Health",
+      "profile_url": "https://ellipsishealth.com/about-us/",
+      "additional_sources": [
+        "https://ellipsishealth.com/research/the-ellipsis-health-journey-a-global-solution-inspired-by-a-personal-struggle/"
+      ],
+      "image_url": "https://ellipsishealth.com/wp-content/uploads/2025/04/mainul-mondal-headshot-2.png",
+      "expertise": "Healthcare AI entrepreneurship and translation, with Ellipsis Health’s work on voice-based behavioral health assessment and AI voice agents for patient care workflows.",
+      "suggested_theme": "Voice agents and patient-facing healthcare workflows",
+      "crop_hint": "Transparent portrait, 768x610; center square crop with a light background.",
+      "role_note": "Listed as a panelist in proposal revision 621594e."
+    },
+    {
+      "name": "Han Liu",
+      "file": "han-liu.jpg",
+      "image_url": "https://ciera.northwestern.edu/wp-content/uploads/2024/09/liu-han-265x265.jpg",
+      "width": 265,
+      "height": 265,
+      "sha256": "6ccc2761767a5dc446ab2ba3dfe260f49599553baeda51cf11022dc474dde7bb",
+      "affiliation": "Northwestern University",
+      "profile_url": "https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/liu-han.html",
+      "identity_verification_url": "https://ciera.northwestern.edu/directory/han-liu/",
+      "verified_on": "2026-10-08",
+      "crop_hint": "center square crop"
+    }
+  ],
+  "program_committee": [
+    {
+      "name": "Ziqing Wang",
+      "file": "ziqing-wang.jpg",
+      "affiliation": "Northwestern University",
+      "profile_url": "https://alexandrewang915.github.io/",
+      "identity_verification_url": "https://statistics.northwestern.edu/people/phd-graduate-students/",
+      "image_url": "https://alexandrewang915.github.io/assets/img/avatar.jpg",
+      "width": 1280,
+      "height": 1794,
+      "crop_hint": "50% 35%",
+      "credit_reuse_information": "No photographer credit or explicit image reuse license found on the personal academic page. Official directory footer states © Northwestern University.",
+      "sha256": "a733cd570e5f7c3e8e9c37872d178fe336200a2d247c3951501d5ee8f499f6c2"
+    },
+    {
+      "name": "Ruiyao Xu",
+      "affiliation": "Northwestern University",
+      "source": "Proposal revision 621594e"
+    },
+    {
+      "name": "Qingcheng Zeng",
+      "affiliation": "Northwestern University",
+      "source": "Proposal revision 621594e"
+    },
+    {
+      "name": "Zeyu Zhang",
+      "affiliation": "Northwestern University",
+      "source": "Proposal revision 621594e"
+    }
+  ],
+  "updated_on": "2026-10-08",
+  "proposal_revision": "621594e"
 }

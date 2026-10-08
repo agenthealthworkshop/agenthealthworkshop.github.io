@@ -1,6 +1,6 @@
 'use strict';
 const element=(tag,cls,text)=>{const node=document.createElement(tag);if(cls)node.className=cls;if(text!==undefined)node.textContent=text;return node;};
-const {speakers,organizers,schedule}=window.workshop;
+const {speakers,panelists,organizers,schedule}=window.workshop;
 const personCard=person=>{
   const article=element('article','person');
   const portrait=element('div','person-portrait');
@@ -18,6 +18,11 @@ for(const speaker of speakers){
   const card=personCard(speaker);
   card.append(element('p','person-topic',speaker.topic));
   document.getElementById('speaker-grid').append(card);
+}
+for(const panelist of panelists){
+  const card=personCard(panelist);
+  card.append(element('p','person-topic',panelist.topic));
+  document.getElementById('panelist-grid').append(card);
 }
 for(const organizer of organizers){
   const card=personCard(organizer);

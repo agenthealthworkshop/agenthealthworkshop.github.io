@@ -51,14 +51,34 @@ window.workshop = {
         "image": "assets/yun-liu.png"
     },
     {
+        "id": "daniel-mcduff",
+        "name": "Daniel McDuff",
+        "affiliation": "Google Research · University of Washington",
+        "title": "Senior Staff Research Scientist and Manager; Affiliate Professor",
+        "topic": "Wearable sensing and multimodal health agents",
+        "bio": "Affective computing, remote physiological sensing, wearable foundation models, and multimodal LLM agents for healthcare.",
+        "url": "https://scholar.google.com/citations?user=m7Jr-b4AAAAJ&hl=en",
+        "image": "assets/daniel-mcduff.jpg"
+    }
+],
+  panelists: [
+    {
         "id": "mainul-mondal",
         "name": "Mainul Mondal",
         "affiliation": "Ellipsis Health",
         "title": "Founder & CEO",
         "topic": "Voice agents and patient-facing care",
-        "bio": "Healthcare AI entrepreneurship and translation, with Ellipsis Health’s work on voice-based behavioral health assessment and AI voice agents for patient care workflows.",
         "url": "https://ellipsishealth.com/about-us/",
         "image": "assets/mainul-mondal.png"
+    },
+    {
+        "id": "han-liu",
+        "name": "Han Liu",
+        "affiliation": "Northwestern University",
+        "title": "Orrington Lunt Professor of Computer Science and Professor of Statistics",
+        "topic": "Foundation models and statistical learning",
+        "url": "https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/liu-han.html",
+        "image": "assets/han-liu.jpg"
     }
 ],
   organizers: [
@@ -99,7 +119,7 @@ window.workshop = {
     {
         "name": "Jiaming Cui",
         "affiliation": "Virginia Tech",
-        "role": "Case Clinic",
+        "role": "Program co-chair",
         "url": "https://website.cs.vt.edu/people/faculty/jiaming-cui.html",
         "image": "assets/jiaming-cui.jpg",
         "imagePosition": "45% 38%",
@@ -114,12 +134,11 @@ window.workshop = {
         "imagePosition": "50% 0%"
     },
     {
-        "name": "Ziqing Wang",
-        "affiliation": "Northwestern University",
-        "role": "Operations",
-        "url": "https://alexandrewang915.github.io/",
-        "image": "assets/ziqing-wang.jpg",
-        "imagePosition": "50% 20%"
+        "name": "Nigam Shah",
+        "affiliation": "Stanford University",
+        "role": "Panel moderator",
+        "url": "https://profiles.stanford.edu/nigam-shah",
+        "image": "assets/nigam-shah.jpg"
     },
     {
         "name": "Lili Zhao",
@@ -144,7 +163,7 @@ window.workshop = {
     {time:'14:40–15:25',name:'Poster session II with coffee',detail:'Direct exchange with contributing authors',minutes:45,type:'interactive'},
     {time:'15:25–15:50',name:'Invited talk · Evaluation and safety',detail:'Speaker assignment to be announced',minutes:25,type:'talk'},
     {time:'15:50–16:15',name:'Invited talk · Clinical deployment',detail:'Speaker assignment to be announced',minutes:25,type:'talk'},
-    {time:'16:15–16:55',name:'Panel · Trusting agents in the clinic and the lab',detail:'External panelists and an organizer moderator',minutes:40,type:'interactive'},
+    {time:'16:15–16:55',name:'Panel · Trusting agents in the clinic and the lab',detail:'Mainul Mondal · Han Liu · Nigam Shah (planned moderator)',minutes:40,type:'interactive'},
     {time:'16:55–17:05',name:'Closing remarks and best-paper recognition',detail:'Community resources and next research questions',minutes:10,type:'other'}
   ]
 };
