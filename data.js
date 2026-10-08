@@ -65,7 +65,7 @@ window.workshop = {
     {
         "name": "Kaize Ding",
         "affiliation": "Northwestern University",
-        "role": "Lead organizer: confirm speakers and talk titles; finalize the program; coordinate the proposal, reviewer nomination, and ICLR program updates.",
+        "role": "Lead organizer: speaker invitations and final program.",
         "url": "https://kaize0409.github.io/",
         "image": "assets/kaize-ding.jpg",
         "imagePosition": "50% 15%",
@@ -74,7 +74,7 @@ window.workshop = {
     {
         "name": "Denghui Zhang",
         "affiliation": "Stevens Institute of Technology",
-        "role": "Publicity and author instructions: draft the call for papers and guidance on patient data and AI use; send announcements and deadline reminders.",
+        "role": "Publicity: call for papers, author guidance, and reminders.",
         "url": "https://zhangdenghui.site/",
         "image": "assets/denghui-zhang.jpg",
         "imagePosition": "50% 35%"
@@ -82,7 +82,7 @@ window.workshop = {
     {
         "name": "Xuan Wang",
         "affiliation": "Virginia Tech",
-        "role": "Program co-chair: recruit biomedical NLP and informatics reviewers; check submission eligibility; ensure each paper receives at least two complete reviews.",
+        "role": "Program co-chair: recruit reviewers and track review completion.",
         "url": "https://website.cs.vt.edu/people/faculty/xuan-wang.html",
         "image": "assets/xuan-wang.jpg",
         "imagePosition": "57% 35%",
@@ -91,7 +91,7 @@ window.workshop = {
     {
         "name": "Dawei Zhou",
         "affiliation": "Virginia Tech",
-        "role": "Program co-chair: assign reviewers after conflict checks; coordinate acceptance decisions, six contributed talks, poster allocation, and unconflicted best-paper selection.",
+        "role": "Program co-chair: assign reviews and coordinate paper decisions.",
         "url": "https://sanghani.cs.vt.edu/people/our-team/faculty/dawei-zhou.html",
         "image": "assets/dawei-zhou.jpeg",
         "imagePosition": "50% 50%"
@@ -99,7 +99,7 @@ window.workshop = {
     {
         "name": "Jiaming Cui",
         "affiliation": "Virginia Tech",
-        "role": "Case Clinic preparation: assemble both agent trajectories, tool logs, and worksheets; rehearse the 60-minute session and lead its group exercise.",
+        "role": "Case Clinic: prepare agent trajectories and discussion worksheets.",
         "url": "https://website.cs.vt.edu/people/faculty/jiaming-cui.html",
         "image": "assets/jiaming-cui.jpg",
         "imagePosition": "45% 38%",
@@ -108,7 +108,7 @@ window.workshop = {
     {
         "name": "Aditya Prakash",
         "affiliation": "Georgia Institute of Technology",
-        "role": "Panel and public-health outreach: recruit external panelists, including a clinician; prepare panel questions; moderate the discussion and invite epidemiology groups.",
+        "role": "Panel: recruit panelists, moderate, and coordinate public-health outreach.",
         "url": "https://cse.gatech.edu/people/b-aditya-prakash",
         "image": "assets/aditya-prakash.png",
         "imagePosition": "50% 0%"
@@ -116,7 +116,7 @@ window.workshop = {
     {
         "name": "Ziqing Wang",
         "affiliation": "Northwestern University",
-        "role": "Workshop operations: set up OpenReview and update the website; collect posters, slides, and access requests; publish the schedule and case-clinic materials.",
+        "role": "Operations: website, OpenReview setup, schedule, and access requests.",
         "url": "https://alexandrewang915.github.io/",
         "image": "assets/ziqing-wang.jpg",
         "imagePosition": "50% 20%"
@@ -124,7 +124,7 @@ window.workshop = {
     {
         "name": "Lili Zhao",
         "affiliation": "Northwestern University",
-        "role": "Case Clinic evaluation: check clinical claims and statistical evidence in the answer keys with clinical collaborators; define expert-intervention points; recruit clinical and biostatistics reviewers.",
+        "role": "Case Clinic: validate clinical claims and statistical evidence.",
         "url": "https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=64019",
         "image": "assets/lili-zhao.jpg",
         "imagePosition": "50% 45%"
