@@ -21,6 +21,7 @@ for(const speaker of speakers){
 }
 for(const organizer of organizers){
   const card=personCard(organizer);
+  card.append(element('p','person-role',organizer.role));
   document.getElementById('organizer-grid').append(card);
 }
 for(const session of schedule){
